@@ -5,7 +5,7 @@ Code for the assessment of the MSG team of TNO - Britt Krabbenborg
 The task it to add a model for the Patriot air defense system. This system consists of three elements: Radar, IFF, and Firing Unit. The radar scans for inbound threats and outputs a line from the `radar_data`. The IFF module checks if a hostile entity is detected by comparing the odd and even value entries in the decimal representation of the radar output. The Firing Unit fires a missile if a hostile entity is detected, and the chance of succesful engagement is simulated by comparing a random number with a Probability of Kill (PK) ratio. This random number is picked from a random number generator with a uniform distribution.
 
 
-# Run the file case_TNO_functions.m in MATLAB 
+# Run the file case_TNO_Britt_Krabbenborg.m in MATLAB 
 Explanation of the functions and variables:
 
 The vector `radar_data` is the data included by the assignment. It is a vector containing binary numbers 
