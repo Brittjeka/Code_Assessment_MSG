@@ -104,6 +104,6 @@ function neutralized = isTargetNeutralized(PK)
     % Random number between 0 and 1 with a uniform distribution
     RND = rand(); 
     
-    % Compar random number with Probability of Kill (PK) ratio
+    % Compare random number with Probability of Kill (PK) ratio
     neutralized = RND <= PK;
 end
